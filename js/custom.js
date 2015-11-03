@@ -309,7 +309,7 @@ jQuery(document).ready(function($) {
 		if ( !$(this).hasClass("linked") ) {
 			$(this).addClass("linked");
 			var dataTitle =  typeof $(this).data("title") === 'undefined' ? "" : 'data-title="'+$(this).data('title')+'"';
-			add_hover_effect($("<a href='#' "+dataTitle+" id='desc'></a>").appendTo($(this).find(".ms-slide-bgcont")).prepend($(this).find("img"))).trigger("mouseover");
+			//add_hover_effect($("<a href='#' "+dataTitle+" id='desc'></a>").appendTo($(this).find(".ms-slide-bgcont")).prepend($(this).find("img"))).trigger("mouseover");
 		}
 	});
 	

@@ -237,7 +237,7 @@
                 <div class="collapse navbar-collapse">
                     <div class="right">
                         <ul class="nav navbar-nav">
-                            <li class="active"><!-- Deleted classes [dropdown h] -->
+                            <li><!-- Deleted classes [dropdown h active] -->
                                 <a href="#home_anchor">Home</a>
                                 <!--<ul class="dropdown-menu">
                                     <li><a href="#">Badass</a></li>
@@ -1069,7 +1069,9 @@
                             <h5><i class="fa fa-twitter-square"></i>TWITTERSPHERE</h5>
 
                             <div class="twitter-feed-wrapper">
-                                <div id="twitter-feed"></div>
+                                <div id="twitter-feed">
+                                    <a class="twitter-timeline" href="https://twitter.com/DinamickaD" data-widget-id="661584971912634369" data-chrome="noheader nofooter">Tweets by @DinamickaD</a>
+                                </div>
                             </div>
 
                         </div><!-- .col-lg-3 -->
@@ -1132,7 +1134,11 @@
     <script src="js/classie.js"></script>
     <script type="text/javascript" src="js/elastic_grid.min.js"></script>
     <script type="text/javascript" src="js/Portfolio.js"></script>
-
+    <!-- Twitter API script -->
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+    <!-- MasterSlider init-->
    <script type="text/javascript" language="javascript">
         jQuery(document).ready(function($) {
 
@@ -1152,6 +1158,7 @@
                 space:0,
                 fullwidth:true,
                 autoplay:true,
+                preload:'all',
                 overPause:false,
                 width:1280,
                 height:sliderHeight
