@@ -3807,7 +3807,7 @@ ul.accordion li.active > article p {
 	.team .member-box ul.bars li .progress,
 	.team .member-box ul.bars li strong,
 	.team .member-box ul.bars li span {
-		margin-right:35px;
+		margin-right:25px;
 	}
 	.team .member-box .color-wrapper a#close {
 		position:absolute;
@@ -4070,7 +4070,7 @@ ul.accordion li.active > article p {
 	}
 	.content-section.video ul.testimonials {
 		position:relative;
-		top:-100px;	
+		/*top:100px;*/	
 	}
 	
 	section.content-section h1,
