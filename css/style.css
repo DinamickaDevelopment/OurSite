@@ -30,14 +30,12 @@ a:hover {
 /**
 *** Parallax Styles ***
 **/
-.parallax {
-	position:absolute;
-}
 
 .slider-wrapper {
 	position:relative;
 	height:100% !important;
 	overflow:hidden;
+    height:820px;
 }
 
 .parallax {
@@ -109,6 +107,9 @@ a:hover {
 .navigation .navbar-default {
 	padding:0;
 	margin:0;
+    height:87px;
+	background:none;
+	border:0;
 }
 
 .navigation.fixed .navbar-default ul.navbar-nav {
@@ -125,17 +126,6 @@ a:hover {
 	height:71px;
 	line-height:71px;
 }
-
-
-
-
-
-.navigation .navbar-default {
-	height:87px;
-	background:none;
-	border:0;
-}
-
 .navigation .navbar-default ul.navbar-nav {
 	height:87px;	
 }
@@ -152,15 +142,7 @@ a:hover {
 	margin-top:1px;
 	font-weight:100;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-	/*font-family:Roboto, Arial, sans-serif;*/
 	color:black;
-
-    
-	
-}
-
-.navigation .navbar-default ul.navbar-nav li a:hover {
-	color:#i;
 }
 
 .navigation .navbar-default ul.navbar-nav li.active a,
@@ -266,9 +248,9 @@ a:hover {
 	top:-8px;
 	display:none;
 	
-	-webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.05);
-	-moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.05);
-	box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.05);
+	-webkit-box-shadow: 0 3px 4px 0 rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    0 3px 4px 0 rgba(50, 50, 50, 0.05);
+	box-shadow:         0 3px 4px 0 rgba(50, 50, 50, 0.05);
 }
 
 .navigation.fixed .search-field {
@@ -278,7 +260,6 @@ a:hover {
 .navigation .search-field input {
 	background:transparent;
 	border:0;
-	font-size:55px;
 	font-family:"Roboto", Arial, sans-serif;
 	font-weight:100;
 	color:#fff;
@@ -290,7 +271,6 @@ a:hover {
 	height: 115px;
     font-size: 33px;
     line-height: 35px;
-    padding:0;
 }
 
 .navigation .search-field ::-webkit-input-placeholder { /* WebKit browsers */
@@ -397,9 +377,9 @@ a:hover {
 	border:0;
 	padding-bottom:0;
 	background:transparent;
-	-webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.10);
-	-moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.10);
-	box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.10);
+	-webkit-box-shadow: 0 3px 4px 0 rgba(50, 50, 50, 0.10);
+	-moz-box-shadow:    0 3px 4px 0 rgba(50, 50, 50, 0.10);
+	box-shadow:         0 3px 4px 0 rgba(50, 50, 50, 0.10);
 }
 
 .navigation.fixed ul.navbar-nav li.dropdown.full section {
@@ -473,7 +453,6 @@ a:hover {
 .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li {
 	padding:0;
 	margin:0 0 2px 0;
-	left:auto;
 	height:auto;
 	position:relative;
 	left:0;
@@ -766,12 +745,14 @@ h6 {
 	color:#404040;
 	position:relative;
 	text-align:center;
+	text-shadow:0;
 }
-.unselectable{
--moz-user-select: none;
--khtml-user-select: none;
--webkit-user-select: none;
-user-select: none;
+.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .content-section h2 {
 	color:#fff;
@@ -879,18 +860,10 @@ h6 {
 	text-align:center;
 }
 
-.content-section h1 {
-	text-shadow:0;
-}
-
 .slider-laptop {
 	position:relative;
 	overflow:hidden;
 	width:100%;
-}
-
-.slider-wrapper {
-	height:820px;
 }
 
 .slider-laptop .laptop {
@@ -1177,11 +1150,10 @@ ul.pagination li a:hover {
 }
 
 .single ul.comments li span {
-	display:inlin-block;
+	display:inline-block;
 	float:left;
 	margin:31px 0 0 35px;
 	font-family:"Roboto", Arial, sans-serif;
-	color:#828282;
 	font-size:12px;
 	color:#919191;
 	font-weight:100;
@@ -3624,6 +3596,7 @@ ul.accordion li.active > article p {
 }
 
 @media (max-width: 1199px) {
+    #dinamLogo{font-size:52px!important}
 	.team .member-box .shadow-lg {
 		display:none;	
 	}
@@ -3749,6 +3722,7 @@ ul.accordion li.active > article p {
 	}
 }
 @media (max-width: 989px) {
+    #dinamLogo{font-size:40px!important}
 	.navigation ul.navbar-nav li.dropdown.full section {
 		margin-left:-131px;
 	}
@@ -4081,9 +4055,16 @@ ul.accordion li.active > article p {
 		display:none;
 	}
 }
+
 @media (max-width: 480px) {
+    #dinamLogo{font-size:28px!important}
 	.team .wrapper {
 		width:100%;
+	}
+}
+
+    @media (max-width: 360px) {
+    #dinamLogo{font-size:24px!important}
 	}
 }
 
