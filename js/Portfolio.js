@@ -77,6 +77,27 @@
                 ],
                 'tags': ['Portrait']
             },
+             {
+                 'title': 'MYH',
+                 'description': "Colorful layout  was made to fulfil designer's idea and has its own plot. This design will be perfect choice for creative companies, services and goods for kids or art cafe.",
+                 'thumbnail': ['images/Portfolio/small/MYH_250x250_1.jpg', 'images/Portfolio/small/MYH_250x250_2.jpg', 'images/Portfolio/small/MYH_250x250_3.jpg'],
+                 'large': ['images/Portfolio/large/MYH_500x500_1.jpg', 'images/Portfolio/large/MYH_500x500_2.jpg', 'images/Portfolio/large/MYH_500x500_3.jpg'],
+                 'button_list':
+                 [
+                     { 'title': 'View', 'url': 'http://myhfinewines.com/index.html', 'new_window': true }
+                 ],
+                 'tags': ['Portrait']
+             },
+              {
+                  'title': 'MYH',
+                  'description': "Colorful layout  was made to fulfil designer's idea and has its own plot. This design will be perfect choice for creative companies, services and goods for kids or art cafe.",
+                  'thumbnail': ['images/Portfolio/small/MYH_250x250_1.jpg', 'images/Portfolio/small/MYH_250x250_2.jpg', 'images/Portfolio/small/MYH_250x250_3.jpg'],
+                  'large': ['images/Portfolio/large/MYH_500x500_1.jpg', 'images/Portfolio/large/MYH_500x500_2.jpg', 'images/Portfolio/large/MYH_500x500_3.jpg'],
+                  'button_list':
+                  [
+                  ],
+                  'tags': ['Portrait']
+              },
         ]
     });
 

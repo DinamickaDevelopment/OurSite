@@ -34,184 +34,45 @@
 
     <!--Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css' /> 
-
+   <!--video slider------------>
+    <link href="css/Slider.css" rel="stylesheet" />
+    <!--typewrite-->
+    <link href="css/typewrite.css" rel="stylesheet" />
    
 
 
 </head>
 
 <body>
+   
+    <!-- --slider -->
 
-    <div id="home_anchor" class="slider-wrapper">
+    <!--<div class="main-screen">
+        
+        <ul class="slideshow">
+            <li class="image active myWrapper">
+                <iframe src="//content.jwplatform.com/players/d9DQYLBN-bCaAZHD5.html" frameborder="0" scrolling="auto" allowfullscreen=allowfullscreen></iframe>
+            </li>
+            <li class="image myWrapper">
+                <iframe src="//content.jwplatform.com/players/0X8df8cC-bCaAZHD5.html" frameborder="0" scrolling="auto" allowfullscreen=allowfullscreen></iframe>
 
-        <!-- masterslider -->
-        <div class="master-slider" id="masterslider" data-height="fullscreen">
+            </li>
+            <li class=" image myWrapper">
+                <iframe src="//content.jwplatform.com/players/Tl6v7x30-bCaAZHD5.html" frameborder="0" scrolling="auto" allowfullscreen=allowfullscreen></iframe>
+            </li>
+        </ul>
+    </div>-->
+   
+    <div class="video-wrapper_Main">
+        <video id="video" class="video-js vjs-default-skin" muted=muted autoplay=autoplay loop=loop preload="auto" poster="images/Mock-up.jpg">
+            <source src="videos/slider/Mock-up.mp4" type='video/mp4' />
+            <source src="videos/slider/Mock-up.webm" type='video/webm' />
+            <source src="videos/slider/Mock-up.ogv" type='video/ogg' />
+        </video>
+    </div><!-- .video-wrapper -->
+    <!-- end of slider -->
 
-            <!-- Slide 1 -->
-            <div class="ms-slide slide-1" style="z-index: 10" data-delay="8">
-                <!-- slide background -->
-                <img data-src="images/slider/FirstSlide.jpg" style="width:100%;height:100%" alt="" />
-                <h1 class="ms-layer center" style="left:0; top:25px;"
-                    data-effect="rotatetop(-40,60,l)"
-                    data-duration="3500"
-                    data-delay="0"
-                    data-ease="easeOutExpo">
-                    <span style="font-size:52px" id="dinamLogo">Dinamicka Development</span>
-                </h1>
-
-                <!--<h2 class="ms-layer center" style="left:0; top:120px;  font-size:30px"
-                    data-effect="left(short)"
-                    data-duration="3500"
-                    data-delay="300"
-                    data-ease="easeOutExpo">
-                    Dinamicka Development Team
-                </h2>-->
-                <!-- mackbook mockup -->
-                <img data-src="images/mackbook.png" alt="layer" class="ms-layer"
-                     style="top:175px;left:145px; width:871px; height:494px;"
-                     data-effect="bottom(100)"
-                     data-duration="1200"
-                     data-delay="600"
-                     data-ease="easeOutQuad"
-                     data-type="image" />
-
-
-                <!-- First Mackbook Screen Layer -->
-                <img data-src="images/Covers/Dreams.png" alt="layer" class="ms-layer"
-                     style="top:208px; left:178px; width:458px; height:361px;"
-                     data-type="image"
-                     data-delay="600"
-                     data-ease="easeOutQuad"
-                     data-effect="bottom(100)"
-                     data-duration="1200"
-                     data-hide-ease="easeOutExpo"
-                     data-hide-effect="top(200)"
-                     data-hide-duration="1200"
-                     data-hide-time="3000" />
-
-                <!-- First Mackbook Screen Layer -->
-                <!-- First Mackbook Screen Layer -->
-                <img data-src="images/Covers/Coffee.png" alt="layer" class="ms-layer"
-                     style="top:208px; left:178px; width:458px; height:361px;"
-                     data-type="image"
-                     data-delay="3000"
-                     data-ease="easeOutQuad"
-                     data-effect="bottom(0)"
-                     data-duration="1200"
-                     data-hide-ease="easeOutExpo"
-                     data-hide-effect="top(200)"
-                     data-hide-duration="1200"
-                     data-hide-time="4500" />
-
-                <!-- First Mackbook Screen Layer -->
-                <!-- First Mackbook Screen Layer -->
-                <img data-src="images/Covers/singleZoo.png" alt="layer" class="ms-layer"
-                     style="top:208px; left:178px; width:458px; height:361px;"
-                     data-type="image"
-                     data-delay="4500"
-                     data-ease="easeOutQuad"
-                     data-effect="bottom(0)"
-                     data-duration="1200"
-                     data-hide-ease="easeOutExpo"
-                     data-hide-effect="top(200)"
-                     data-hide-duration="1200"
-                     data-hide-time="6000" />
-
-                <!-- First Mackbook Screen Layer -->
-                <!-- First Mackbook Screen Layer -->
-                <img data-src="images/Covers/fmxa.png" alt="layer" class="ms-layer"
-                     style="top:208px; left:178px; width:458px; height:361px;"
-                     data-type="image"
-                     data-delay="6000"
-                     data-ease="easeOutQuad"
-                     data-effect="bottom(0)"
-                     data-duration="1200" />
-
-            </div>
-            <!-- end of slide -->
-            <!-- slide 2 -->
-            <div class="ms-slide slide-2" style="z-index: 11" data-delay="6">
-
-                <!-- slide background -->
-                <img data-src="images/slider/3.jpg" alt="lorem ipsum dolor sit" />
-
-                <h2 class="ms-layer" style="left:7px; top:215px;"
-                    data-effect="top(100)"
-                    data-duration="3500"
-                    data-delay="0"
-                    data-ease="easeOutExpo">
-                    A website like no other.
-                </h2>
-
-                <h1 class="ms-layer" style="left:0; top:276px"
-                    data-effect="bottom(short)"
-                    data-duration="2500"
-                    data-delay="500"
-                    data-ease="easeOutExpo">
-                    Modern, Clean, Minimal
-                </h1>
-
-                <!--<p class="ms-layer h4" style="left:7px; top:415px; width:460px;"
-                   data-effect="bottom(short)"
-                   data-duration="1200"
-                   data-delay="600"
-                   data-ease="300">
-                    Rigged with over xx homepages, xx header styels, xx sliders,
-                    xx footer styles, inifinite color options.
-                </p>-->
-
-                <p class="ms-layer h4" style="left:7px; top:517px; width:460px;"
-                   data-effect="bottom(short)"
-                   data-duration="1000"
-                   data-delay="650"
-                   data-ease="300"><a href="#contactForm" class="btn btn-bordered white upp anim" style="left:7px; top:460px;" role="button">Make a deal</a></p>
-
-            </div>
-            <!-- end of slide -->
-            <!-- slide 3 -->
-            <div class="ms-slide slide-video" style="z-index: 9" data-delay="8">
-
-                <img data-src="images/slider/laptopglasses.png" alt="lorem ipsum dolor sit" />
-
-                <video id="video1" class="video-js vjs-default-skin" muted="" autoplay="" loop="" preload="">
-                    <source src="videos/CameraLens/CameraLens.mp4" type='video/mp4' />
-                    <source src="videos/CameraLens/CameraLens.webm" type='video/webm' />
-                    <source src="videos/CameraLens/CameraLens.ogv" type='video/ogg' />
-                </video>
-
-                <h2 class="ms-layer" style="left:390px; top:215px;"
-                    data-effect="right(200)"
-                    data-duration="3500"
-                    data-delay="100"
-                    data-ease="easeOutExpo">
-                    Custom Video Backgrounds
-                </h2>
-
-                <h1 class="ms-layer center" style="left:0; top:276px"
-                    data-effect="bottom(short)"
-                    data-duration="2500"
-                    data-delay="800"
-                    data-ease="easeOutExpo">
-                    Perfected Every Pixel
-                </h1>
-
-                <!--<p class="ms-layer h4" style="left:91px; top:415px; width:460px;"
-                   data-effect="left(short)"
-                   data-duration="1200"
-                   data-delay="1200"
-                   data-ease="300">
-                    All videos you see in the preview are available in the
-                    download file along with stock photos!
-                </p>-->
-
-            </div>
-            <!-- end of slide -->
-
-        </div> <!-- end of masterslider -->
-
-        <a href="#firstSection"><i class="fa fa-chevron-down" id="go-down"></i></a>
-
-    </div><!-- end of slider-wrapper -->
+  
 
     <span id="nav-begins"></span><!-- place before navigation bar-->
     <div class="container-wrapper navigation">
@@ -301,10 +162,10 @@
                                         <div class="color-wrapper">
                                             <div class="nivo-wrapper">
                                                 <div id="slider" class="nivoSlider">
-                                                    <img src="images/miniS1.jpg" alt="" name="" width="310" height="150" />
-                                                    <img src="images/miniS2.jpg" alt="" name="" width="310" height="150" />
-                                                    <img src="images/miniS3.jpg" alt="" name="" width="310" height="150" />
-                                                    <img src="images/miniS4.jpg" alt="" name="" width="310" height="150" />
+                                                    <img src="images/miniS9.jpg" alt="" name="" width="310" height="150" />
+                                                    <img src="images/miniS8.jpg" alt="" name="" width="310" height="150" />
+                                                    <img src="images/miniS6.jpg" alt="" name="" width="310" height="150" />
+                                                    <img src="images/miniS7.jpg" alt="" name="" width="310" height="150" />
                                                 </div>
                                             </div>
                                             <p><a href="#our_work">To see more, check out our portfolio page!</a></p>
@@ -338,63 +199,75 @@
         </nav>
     </div>
 
+    <!-- end of navbar -->
+    <!--typewritting-->
+    <h1 class="typewrite_wrap">
+        <span class="typewrite" data-period="2000" data-type='[ "We are the team of", "Dinamicka Development", "We try to develop things.", "And we can make your projects work." ]'>
+            <span class="wrap"></span>
+        </span>
+    </h1>
+    <!--typewritting-->
     <section class="content-section" id="firstSection">
         <div class="container">
-            <h1 class="anim fadeInDown"><i class="fa fa-gear"></i>OUR <span>SERVICES</span></h1>
-            <p class="anim fadeInUp">
-                We are ready to offer you several types of services
-            </p>
+            <div class="row">
+                <h1 class="anim fadeInDown"><i class="fa fa-gear"></i>OUR <span>SERVICES</span></h1>
+                <p class="anim fadeInUp">
+                    We are ready to offer you several types of services
+                </p>
+            </div>
         </div>
     </section>
 
     <section class="feature-list">
         <div class="container">
 
-            <div class="col-lg-4 feature anim fadeInLeft" data-wow-delay="0.25s">
-                <i class="fa fa-laptop" style="font-size:41px; padding-top:20px; text-indent: 18px; "></i>
-                <div class="content">
-                    <h4>Web development</h4>
-                    <p>
-                        We diligently develop sites that
-                        are easy to update and optimized for the specific individual needs of each client.
-                        Our specialties are Content Management Systems (CMS), responsive
-                        coding (HTML 5; CSS 3) and custom projects.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 feature anim fadeInDown" data-wow-delay="0.25s">
-                <i class="fa fa-mobile" style="font-size:54px; padding-top:13px; text-indent: 27px; "></i>
-                <div class="content">
-                    <h4>Mobile development </h4>
-                    <p>
-                        Do you have an idea to expand your
-                        business into mobile dimension? We can help you  to develop it!
-                        Would you like it to be native iOS, Android or Windows app?
-                        Or would you prefer cross-platform responsive web app? If you want it,
-                        than we will do it!
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 feature anim fadeInRight" data-wow-delay="0.25s">
-                <i class="fa fa-paint-brush" style="font-size:34px; padding-top:21px; text-indent: 21px; "></i>
-                <div class="content">
-                    <h4>UI\UX</h4>
-                    <p>
-                        Our company provides your business or project with creative
-                        and unique web design. Customers who attracted with inspiring
-                        and original design of company`s website are the best audience
-                        for your business. And our high-skilled web-designers surely know
-                        how to attract them.
-                    </p>
+            <div class="row">
+                <div class="col-lg-4 feature anim fadeInLeft" data-wow-delay="0.25s">
+                    <i class="fa fa-laptop" style="font-size:41px; padding-top:20px; text-indent: 18px; "></i>
+                    <div class="content">
+                        <h4>Web development</h4>
+                        <p>
+                            We diligently develop sites that
+                            are easy to update and optimized for the specific individual needs of each client.
+                            Our specialties are Content Management Systems (CMS), responsive
+                            coding (HTML 5; CSS 3) and custom projects.
+                        </p>
+                    </div>
                 </div>
 
+                <div class="col-lg-4 feature anim fadeInDown" data-wow-delay="0.25s">
+                    <i class="fa fa-mobile" style="font-size:54px; padding-top:13px; text-indent: 27px; "></i>
+                    <div class="content">
+                        <h4>Mobile development </h4>
+                        <p>
+                            Do you have an idea to expand your
+                            business into mobile dimension? We can help you  to develop it!
+                            Would you like it to be native iOS, Android or Windows app?
+                            Or would you prefer cross-platform responsive web app? If you want it,
+                            than we will do it!
+                        </p>
+                    </div>
+                </div>
 
+                <div class="col-lg-4 feature anim fadeInRight" data-wow-delay="0.25s">
+                    <i class="fa fa-paint-brush" style="font-size:34px; padding-top:21px; text-indent: 21px; "></i>
+                    <div class="content">
+                        <h4>UI\UX</h4>
+                        <p>
+                            Our company provides your business or project with creative
+                            and unique web design. Customers who attracted with inspiring
+                            and original design of company`s website are the best audience
+                            for your business. And our high-skilled web-designers surely know
+                            how to attract them.
+                        </p>
+                    </div>
+
+                </div>
 
             </div>
 
             <!-- Second Row -->
+            <div class="row">
             <div class="col-lg-4 feature anim fadeInLeft" data-wow-delay="0.5s">
                 <i class="fa fa-line-chart" style="font-size:34px; padding-top:23px; text-indent: 20px; "></i>
                 <div class="content">
@@ -420,7 +293,7 @@
                 </div>
             </div>
             <!-- End of second row -->
-
+        </div>
         </div>
     </section><!-- .feature-list -->
 
@@ -428,10 +301,10 @@
         <span class="shadows"></span>
 
         <div class="video-wrapper">
-            <video id="video1" class="video-js vjs-default-skin" width="1600" height="901" muted="" autoplay="" loop="" preload="">
-                <!--<source src="videos/CameraLens/RecordPlayer.mp4" type='video/mp4' />-->
-                <source src="videos/CameraLens/RecordPlayer.webm" type='video/webm' />
-                <!--<source src="videos/RecordPlayer/RecordPlayer.ogv" type='video/ogg' />-->
+            <video id="video1" class="video-js vjs-default-skin" width="1600" height="901" muted="" autoplay="" loop="" preload="auto">
+                <source src="videos/CameraLens/CameraLens.mp4" type='video/mp4' />
+                <!--<source src="videos/CameraLens/RecordPlayer.webm" type='video/webm' />
+                <source src="videos/RecordPlayer/RecordPlayer.ogv" type='video/ogg' />-->
             </video>
         </div><!-- .video-wrapper -->
 
@@ -1018,92 +891,95 @@
         <section class="content-section parallax-bg-3" data-stellar-background-ratio=".15">
 
             <div class="container">
-
-                <div class="col-lg-12">
-                    <h1 class="anim fadeInDown">Convinced?</h1>
-                    <div class="center-buttons">
-                        <p>
-                            <a href="#contactForm" class="btn btn-bordered white anim upp fadeInRight" role="button">Make a deal</a>
-                        </p>
-                    </div><!-- .center-buttons -->
-                </div>
-
-            </div><!-- .container -->
-
-            <div class="foot-wrapper">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-3 anim fadeInLeft">
-                            <span class="logo">
-                                <img src="images/Logos/logo-light.png" alt="Light logo" />
-                            </span><!-- .logo -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="anim fadeInDown">Convinced?</h1>
+                        <div class="center-buttons">
                             <p>
-                                Our primary concern is dealing with our customers and making sure that they are satisfied.
-                                Any questions, comments, or concerns you may have are very important to us.
+                                <a href="#contactForm" class="btn btn-bordered white anim upp fadeInRight" role="button">Make a deal</a>
                             </p>
-                        </div><!-- .col-lg-3 -->
-
-                        <div class="col-md-3 anim fadeInLeft">
-                            <h5><i class="fa fa-twitter-square"></i>TWITTERSPHERE</h5>
-
-                            <div class="twitter-feed-wrapper">
-                                <div id="twitter-feed">
-                                    <a class="twitter-timeline" href="https://twitter.com/DinamickaD" data-widget-id="661584971912634369" data-chrome="noheader nofooter">Tweets by @DinamickaD</a>
-                                </div>
-                            </div>
-
-                        </div><!-- .col-lg-3 -->
-
-                        <div class="col-md-3">
-                            <h5 class="anim fadeInRight"><i class="fa fa-rocket"></i>LINKS TO VISIT</h5>
-                            <ul class="pages">
-                                <li class="anim fadeInRight" data-wow-delay="0.35s"><a class="btn btn-bordered white" role="button" href="#home_anchor">Home</a></li>
-                                <li class="anim fadeInRight" data-wow-delay="0.37s"><a class="btn btn-bordered white" role="button" href="#our_work">Portfolio</a></li>
-                                <li class="anim fadeInRight" data-wow-delay="0.39s"><a class="btn btn-bordered white" role="button" href="#ourTeam">About</a></li>
-
-                                <li class="anim fadeInRight" data-wow-delay="0.42s"><a class="btn btn-bordered white" role="button" href="https://www.facebook.com/DinamickaDevelopment" target="_blank">Facebook</a></li>
-                                <li class="anim fadeInRight" data-wow-delay="0.49s"><a class="btn btn-bordered white" role="button" href="https://twitter.com/DinamickaD" target="_blank">Twitter</a></li>
-                                <li class="anim fadeInRight" data-wow-delay="0.49s"><a class="btn btn-bordered white" role="button" href="https://www.linkedin.com/company/dinamicka-development"  target="_blank">LinkedIn</a></li>
-
-                                <li class="anim fadeInRight" data-wow-delay="0.54s"><a class="btn btn-bordered white" role="button" href="#contactUs">Contact</a></li>
-                            </ul><!-- .pages -->
-                        </div><!-- .col-lg-3 -->
-
-                        <div class="col-md-3 anim fadeInRight">
-                            <h5><i class="fa fa-rss"></i>STAY CONNECTED</h5>
-
-                            <div class="contact-info">
-                                <p>
-                                    Feel free to call us any time, we have a staff
-                                    dedicated to taking your calls.
-                                </p>
-                                <span>
-                                    <i class="fa fa-phone"></i>
-                                    +38 (093) 967 - 08 - 55
-                                </span>
-                                <span>
-                                    <i class="fa fa-envelope"></i>
-                                    info@dinamicka.com
-                                </span>
-                                <ul class="social-media" data-wow-delay="0.25s">
-                                    <li><a href="https://www.facebook.com/DinamickaDevelopment" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/dinamicka-development" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="https://twitter.com/DinamickaD" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <!--<li><a href="https://github.com/DinamickaDevelopment" target="_blank"><i class="fa fa-github"></i></a></li>-->
-                                </ul><!-- .social-media -->
-                            </div>
-                        </div><!-- .col-lg-3 -->
-
-                    </div><!-- .row -->
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <span class="copyright">Copyright 2015 Dinamicka Development - All RIghts Reserved</span>
-                        </div><!-- .col-lg-12 -->
-                    </div><!-- .row -->
+                        </div><!-- .center-buttons -->
+                    </div>
+                </div>
                 </div><!-- .container -->
-            </div><!-- .foot-wrapper -->
+
+                <div class="foot-wrapper">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-3 anim fadeInLeft">
+                                <span class="logo">
+                                    <img src="images/Logos/logo-light.png" alt="Light logo" />
+                                </span><!-- .logo -->
+                                <p>
+                                    Our primary concern is dealing with our customers and making sure that they are satisfied.
+                                    Any questions, comments, or concerns you may have are very important to us.
+                                </p>
+                            </div><!-- .col-lg-3 -->
+
+                         
+
+                            <div class="col-md-3">
+                                <h5 class="anim fadeInRight"><i class="fa fa-rocket"></i>LINKS TO VISIT</h5>
+                                <ul class="pages">
+                                    <li class="anim fadeInRight" data-wow-delay="0.35s"><a class="btn btn-bordered white" role="button" href="#home_anchor">Home</a></li>
+                                    <li class="anim fadeInRight" data-wow-delay="0.37s"><a class="btn btn-bordered white" role="button" href="#our_work">Portfolio</a></li>
+                                    <li class="anim fadeInRight" data-wow-delay="0.39s"><a class="btn btn-bordered white" role="button" href="#ourTeam">About</a></li>
+
+                                    <li class="anim fadeInRight" data-wow-delay="0.42s"><a class="btn btn-bordered white" role="button" href="https://www.facebook.com/DinamickaDevelopment" target="_blank">Facebook</a></li>
+                                    <li class="anim fadeInRight" data-wow-delay="0.49s"><a class="btn btn-bordered white" role="button" href="https://twitter.com/DinamickaD" target="_blank">Twitter</a></li>
+                                    <li class="anim fadeInRight" data-wow-delay="0.49s"><a class="btn btn-bordered white" role="button" href="https://www.linkedin.com/company/dinamicka-development" target="_blank">LinkedIn</a></li>
+
+                                    <li class="anim fadeInRight" data-wow-delay="0.54s"><a class="btn btn-bordered white" role="button" href="#contactUs">Contact</a></li>
+                                </ul><!-- .pages -->
+                            </div><!-- .col-lg-3 -->
+
+                            <div class="col-md-3 anim fadeInRight">
+                                <h5><i class="fa fa-rss"></i>STAY CONNECTED</h5>
+
+                                <div class="contact-info">
+                                    <p>
+                                        Feel free to call us any time, we have a staff
+                                        dedicated to taking your calls.
+                                    </p>
+                                    <span>
+                                        <i class="fa fa-phone"></i>
+                                        +38 (093) 967 - 08 - 55
+                                    </span>
+                                    <span>
+                                        <i class="fa fa-envelope"></i>
+                                        info@dinamicka.com
+                                    </span>
+                                    <ul class="social-media" data-wow-delay="0.25s">
+                                        <li><a href="https://www.facebook.com/DinamickaDevelopment" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/dinamicka-development" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://twitter.com/DinamickaD" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <!--<li><a href="https://github.com/DinamickaDevelopment" target="_blank"><i class="fa fa-github"></i></a></li>-->
+                                    </ul><!-- .social-media -->
+                                </div>
+                            </div><!-- .col-lg-3 -->
+
+                            <div class="col-md-3 anim fadeInLeft">
+                                <h5><i class="fa fa-twitter-square"></i>TWITTERSPHERE</h5>
+
+                                <div class="twitter-feed-wrapper">
+                                    <div id="twitter-feed">
+                                        <a class="twitter-timeline" href="https://twitter.com/DinamickaD" data-widget-id="661584971912634369" data-chrome="noscrollbar" data-theme="dark" data-link-color="#9855d4" data-tweet-limit="2" data-aria-polite="assertive">Tweets by @DinamickaD</a>
+                                    </div>
+                                </div>
+
+                            </div><!-- .col-lg-3 -->
+
+                        </div><!-- .row -->
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <span class="copyright">Copyright 2015 Dinamicka Development - All RIghts Reserved</span>
+                            </div><!-- .col-lg-12 -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </div><!-- .foot-wrapper -->
+            </div>
         </section>
     </footer>
 
@@ -1177,19 +1053,19 @@
     <!-- Master slider core JavaScript -->
     <script language="javascript" src="js/masterslider.min.js"></script>
     <!-- Master slider staff core JavaScript -->
-    <script language="javascript" src="js/masterslider.staff.carousel.dev.js"></script>
+    <!--<script language="javascript" src="js/masterslider.staff.carousel.dev.js"></script>-->
     <!-- WOW core JavaScript -->
     <script language="javascript" src="js/wow.min.js"></script>
     <!-- Waypoints core JavaScript -->
     <script language="javascript" src="js/waypoints.min.js"></script>
     <!-- Underscore core JavaScript -->
-    <script language="javascript" src="js/underscore-min.js"></script>
+    <!--<script language="javascript" src="js/underscore-min.js"></script>-->
     <!-- jQuery Backstretch core -->
     <script language="javascript" src="js/jquery.backstretch.min.js"></script>
     <!-- jQuery color core JavaScript -->
     <script language="javascript" src="js/jquery.animation.js"></script>
     <!-- Isotope core JavaScript -->
-    <!--<script language="javascript" src="js/jquery.isotope.min.js"></script>-->
+    <script language="javascript" src="js/jquery.isotope.min.js"></script>
     <!-- Stellar core JavaScript -->
     <script language="javascript" src="js/jquery.stellar.min.js"></script>
     <!-- Contact core JavaScript(Mail API Logic JavaScript) -->
@@ -1201,15 +1077,19 @@
     <!-- Nivo Slider JavaScript -->
     <script language="javascript" src="js/jquery.nivo.slider.pack.js"></script>
     <!-- Video core JavaScript -->
-    <script language="javascript" src="js/video.js"></script>
+    <!--<script language="javascript" src="js/video.js"></script>-->
     <!-- OWL Carousel core JavaScript -->
-    <script language="javascript" src="js/owl.carousel.min.js"></script>
+    <!--<script language="javascript" src="js/owl.carousel.min.js"></script>-->
     <!-- twitterfeed core JavaScript -->
     <!--<script language="javascript" src="js/jquery.twitterfeed.js"></script>-->
     <!-- Lightbox core JavaScript -->
-    <script language="javascript" src="js/lightbox.min.js"></script>
+    <!--<script language="javascript" src="js/lightbox.min.js"></script>-->
     <!-- Everything else -->
     <script language="javascript" src="js/custom.js"></script>
+    <!-- video slider-->
+    <script src="js/SliderJQuery.js"></script>
+    <!--typewrite-->
+    <script src="js/typewrite.js"></script>
 </body>
 
 </html>

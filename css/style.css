@@ -27,7 +27,25 @@ a:hover {
 	color:#4487b2;
 }
 
+
+/*Slider*/
+#video{
+    width:100%;
+        -o-filter:opacity(0.5);
+    -moz-filter:opacity(0.5);
+    -webkit-filter:opacity(0.5);
+    filter:opacity(0.5);
+
+}
+.video-wrapper_Main{
+        margin-top: -9%;
+
+}
+
+
+
 /**
+
 *** Parallax Styles ***
 **/
 
@@ -82,7 +100,7 @@ a:hover {
 	border-bottom:1px solid #e0e0e0;
 	position:relative;
 	z-index:99999999999;
-
+   
     color:black !important;
     
 }
@@ -102,6 +120,7 @@ a:hover {
 	border-top:4px solid #7764b0;
 	width:100%;
 	height:75px;
+   
 }
 
 .navigation .navbar-default {
@@ -403,7 +422,10 @@ a:hover {
 	float:left;
 	height:100%;
 }
-
+    .navigation ul.navbar-nav li.dropdown.full section span.wrapper .clear-wrapper article ul li a
+    {
+        cursor:default;
+    }
 .navigation ul.navbar-nav li.dropdown.full section span.wrapper .color-wrapper {
 	background:#7764b0;
 	width:368px;  /* Golden Ratio, 3% padding-left */
@@ -706,10 +728,9 @@ section.content-section .row.no-heading {
 **/
 .content-section {
 	background:#fff;
-	padding-top:52px;
+    /*margin-top: 45%;*/
 	display:block;
-	padding-bottom:72px;
-	margin:0;
+
 }
 
 .content-section.light {
@@ -1420,7 +1441,7 @@ ul.pagination li a:hover {
 .feature-list .feature:hover i {
 	color:#fff;
 	background-color:#7764b0;
-	border:1px solid #5fb5ec;
+	/*border:1px solid #5fb5ec;*/
 }
 
 .feature-list .feature .content {
@@ -1441,6 +1462,7 @@ ul.pagination li a:hover {
 	font-weight:300;
 	font:14px;
 	line-height:22px;
+    text-align:justify;
 }
 
 .feature-list-2 {
@@ -2250,8 +2272,8 @@ footer .content-section .center-buttons p a.white {
 }
 
 footer .content-section .center-buttons p a.white:hover {
-	border-color:rgba(255,255,255,1);
-	color:#404040;
+	border-color:#7764af;
+	color:white;
 }
 
 footer .foot-wrapper {
@@ -2259,6 +2281,7 @@ footer .foot-wrapper {
 	width:100%;
 	padding:0;
 	margin:0;
+        padding-top: 45px;
 }
 
 footer .foot-wrapper .logo {
@@ -2317,9 +2340,9 @@ footer .foot-wrapper p.copyright {
 	padding-bottom:22px;
 }
 
-footer.classic .row > div {
+/*footer.classic .row > div {
 	margin-top:45px;
-}
+}*/
 
 footer.classic h5 {
 	font-size:22px;
@@ -2352,11 +2375,20 @@ footer.classic p {
 	font-family:"Roboto", Arial, sans-serif;
 	line-height:24px;
 }
+/*twitter*/
+div.twitter-feed-wrapper div#twitter-feed iframe#twitter-widget-0{
+        height: 167px!important;
+        min-height: 130px!important;
+                
+}
+
 
 footer.classic .twitter-feed-wrapper {
 	margin-top:31px;
 }
-
+.twitter-feed{
+  
+}
 footer.classic .tweets-container {
 	overflow:hidden;
 }
@@ -2568,6 +2600,7 @@ footer.classic .copyright {
 	font-weight:100;
 	font-family:"Roboto", Arial, sans-serif;
 	line-height:60px;
+    cursor:default;
 }
 
 .content-section.fixed i.fa-quote-right,
@@ -2679,7 +2712,10 @@ div.testimonials > i.fa-quote-right {
 	margin-left:-32px;
 	margin-top:-32px;
 }
-
+/**Twitter**/
+div.root > div.stream{
+        height: 70%!important;
+}
 /** LISTS **/
 ul.fa {
 	text-decoration:none;
