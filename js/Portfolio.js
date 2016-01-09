@@ -89,10 +89,10 @@
                  'tags': ['Portrait']
              },
               {
-                  'title': 'MYH',
+                  'title': 'Lambda',
                   'description': "Colorful layout  was made to fulfil designer's idea and has its own plot. This design will be perfect choice for creative companies, services and goods for kids or art cafe.",
-                  'thumbnail': ['images/Portfolio/small/MYH_250x250_1.jpg', 'images/Portfolio/small/MYH_250x250_2.jpg', 'images/Portfolio/small/MYH_250x250_3.jpg'],
-                  'large': ['images/Portfolio/large/MYH_500x500_1.jpg', 'images/Portfolio/large/MYH_500x500_2.jpg', 'images/Portfolio/large/MYH_500x500_3.jpg'],
+                  'thumbnail': ['images/Portfolio/small/lambda_250x250_1.jpg', 'images/Portfolio/small/lambda_250x250_2.jpg', 'images/Portfolio/small/lambda_250x250_3.jpg'],
+                  'large': ['images/Portfolio/large/lambda_500x500_1.jpg', 'images/Portfolio/large/lambda_500x500_2.jpg', 'images/Portfolio/large/lambda_500x500_3.jpg'],
                   'button_list':
                   [
                   ],
