@@ -78,8 +78,8 @@
                 'tags': ['Portrait']
             },
              {
-                 'title': 'MYH',
-                 'description': "Colorful layout  was made to fulfil designer's idea and has its own plot. This design will be perfect choice for creative companies, services and goods for kids or art cafe.",
+                 'title': 'MYH Fine Wines',
+                 'description': "Web site for exclusive distributor of Zalto Glassware brand in Hong Kong, Macau and mainland China. Company needed nice elegant design along with intuitive functionality. Web site has three different custom slaiders, custom contact and subscription forms.",
                  'thumbnail': ['images/Portfolio/small/MYH_250x250_1.jpg', 'images/Portfolio/small/MYH_250x250_2.jpg', 'images/Portfolio/small/MYH_250x250_3.jpg'],
                  'large': ['images/Portfolio/large/MYH_500x500_1.jpg', 'images/Portfolio/large/MYH_500x500_2.jpg', 'images/Portfolio/large/MYH_500x500_3.jpg'],
                  'button_list':
@@ -89,8 +89,8 @@
                  'tags': ['Portrait']
              },
               {
-                  'title': 'Lambda',
-                  'description': "Colorful layout  was made to fulfil designer's idea and has its own plot. This design will be perfect choice for creative companies, services and goods for kids or art cafe.",
+                  'title': 'Landing page for a restaurant',
+                  'description': "Sophisticated and eye-catching landing page template for restaurant. Fine design and great user experience in one mock up. We have no client for this design yet, so you can easily order it.",
                   'thumbnail': ['images/Portfolio/small/lambda_250x250_1.jpg', 'images/Portfolio/small/lambda_250x250_2.jpg', 'images/Portfolio/small/lambda_250x250_3.jpg'],
                   'large': ['images/Portfolio/large/lambda_500x500_1.jpg', 'images/Portfolio/large/lambda_500x500_2.jpg', 'images/Portfolio/large/lambda_500x500_3.jpg'],
                   'button_list':
