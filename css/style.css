@@ -3626,6 +3626,20 @@ blockquote {
         display: block;
     }*/
 
+/*-----typewriter--------*/
+.typewrite {
+    font-size: 2.35em;
+    color:indigo;
+    font-family:'Roboto Light';
+}
+
+.typewrite_wrap {
+    left: 3%;
+    top: 5%;
+    position: absolute;
+    z-index: 1000;
+}
+/*-----typewriter--------*/
 
 @media (max-width: 1199px) {
     #dinamLogo {
@@ -3781,6 +3795,15 @@ blockquote {
 }
 
 @media (max-width: 989px) {
+    .typewrite_wrap {
+    left: 3%;
+    top: 3%;
+    position: absolute;
+    z-index: 1000;
+}
+.typewrite {
+    font-size: 1.8em;
+}
     #dinamLogo {
         font-size: 40px !important;
     }
@@ -4004,6 +4027,16 @@ blockquote {
 }
 
 @media (max-width: 767px) {
+        .typewrite_wrap {
+    left: 3%;
+    top: 2.5%;
+    position: absolute;
+    z-index: 1000;
+}
+        .typewrite {
+    font-size: 1.4em;
+}
+
     .content-section.min-flex {
         height: auto;
     }
@@ -4177,6 +4210,13 @@ blockquote {
 }
 
 @media (max-width: 480px) {
+    .typewrite {
+    font-size: 0.9em;
+}
+    .typewrite_wrap {
+    top: 1%;
+}
+
     #dinamLogo {
         font-size: 28px !important;
     }
@@ -4190,9 +4230,15 @@ blockquote {
     #dinamLogo {
         font-size: 24px !important;
     }
+    .typewrite {
+    font-size: 0.63em;
+}
+    .typewrite_wrap {
+    top: 0.7%;
 }
 
 }
+
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
 
