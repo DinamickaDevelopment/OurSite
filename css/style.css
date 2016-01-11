@@ -3800,6 +3800,7 @@ blockquote {
     top: 3%;
     position: absolute;
     z-index: 1000;
+        font-family:'Roboto Light';
 }
 .typewrite {
     font-size: 1.8em;
@@ -4032,6 +4033,7 @@ blockquote {
     top: 2.5%;
     position: absolute;
     z-index: 1000;
+        font-family:'Roboto Light';
 }
         .typewrite {
     font-size: 1.4em;
@@ -4212,6 +4214,7 @@ blockquote {
 @media (max-width: 480px) {
     .typewrite {
     font-size: 0.9em;
+        font-family:'Roboto Light';
 }
     .typewrite_wrap {
     top: 1%;
@@ -4232,6 +4235,7 @@ blockquote {
     }
     .typewrite {
     font-size: 0.63em;
+        font-family:'Roboto Light';
 }
     .typewrite_wrap {
     top: 0.7%;
