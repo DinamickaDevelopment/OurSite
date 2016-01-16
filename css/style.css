@@ -63,8 +63,36 @@ a {
 
 .video-wrapper_Main {
     margin-top: -9%;
+    position:relative;
 }
 
+/*-----------mobile_cover---------------*/
+div.mobile_cover {
+    background: url('../images/Mock-up.jpg') no-repeat center top;
+    /*background-size:cover;
+    display: none;
+    width:100%;
+    height:430px;
+    -o-filter: opacity(0.55);
+    -moz-filter: opacity(0.55);
+    -webkit-filter: opacity(0.55);
+    filter: opacity(0.55);*/
+    margin-top: 0;
+    padding-top: 205px;
+    /*text-align: center;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center center;*/
+    min-height: 160px;
+    width: 100%;
+        display: none;
+            -o-filter: opacity(0.55);
+    -moz-filter: opacity(0.55);
+    -webkit-filter: opacity(0.55);
+    filter: opacity(0.55);
+    /*background-size: 100%;*/
+    background-size: cover;
+}
+/*-----------mobile_cover---------------*/
 
 
 
@@ -1486,7 +1514,6 @@ ul.pagination {
             font-weight: 300;
             font: 14px;
             line-height: 22px;
-            text-align: justify;
         }
 
 .feature-list-2 {
@@ -3094,7 +3121,7 @@ ul.info-list {
 *** Charts ***
 **/
 
-.chart-wrapper {
+/*.chart-wrapper {
     margin-top: 85px;
 }
 
@@ -3141,7 +3168,7 @@ ul.info-list {
     padding: 0 !important;
     line-height: 28px !important;
     width: 100% !important;
-}
+}*/
 
 /**
 *** Button styles ***
@@ -3185,7 +3212,7 @@ ul.info-list {
         }
 
     /* Success */
-    .btn-success, .btn-success:focus {
+    /*.btn-success, .btn-success:focus {
         border: 1px solid #5cb85c;
         background: transparent;
         color: #5cb85c;
@@ -3194,10 +3221,10 @@ ul.info-list {
         .btn-success:hover {
             background: #55b455;
             border: 1px solid #5cb85c;
-        }
+        }*/
 
     /* Info */
-    .btn-info, .btn-info:focus {
+    /*.btn-info, .btn-info:focus {
         border: 1px solid #39b3d7;
         background: transparent;
         color: #39b3d7;
@@ -3206,13 +3233,13 @@ ul.info-list {
         .btn-info:hover {
             border: 1px solid #39b3d7;
             background: #39b3d7;
-        }
+        }*/
 
 .upp {
     text-transform: uppercase;
 }
 /* Warning */
-.btn-warning, .btn-warning:focus {
+/*.btn-warning, .btn-warning:focus {
     border: 1px solid #f0ad4e;
     background: transparent;
     color: #f0ad4e;
@@ -3221,10 +3248,10 @@ ul.info-list {
     .btn-warning:hover {
         background: #f0ad4e;
         border: 1px solid #f0ad4e;
-    }
+    }*/
 
 /* Danger */
-.btn-danger, .btn-danger:focus {
+/*.btn-danger, .btn-danger:focus {
     border: 1px solid #d9534f;
     background: transparent;
     color: #d9534f;
@@ -3233,7 +3260,7 @@ ul.info-list {
     .btn-danger:hover {
         background: #d9534f;
         border: 1px solid #d9534f;
-    }
+    }*/
 
 /* Bordered */
 .btn-bordered, .btn-bordered:focus {
@@ -3273,7 +3300,7 @@ ul.info-list {
                 background: #7764af;
             }
 
-.btn-white {
+/*.btn-white {
     background: #fff;
 }
 
@@ -3306,7 +3333,7 @@ ul.info-list {
 
 .btn.icon {
     padding-left: 17px;
-}
+}*/
 
 /* Filters */
 .filter a.hot {
@@ -3403,11 +3430,11 @@ ul.info-list {
 *** Stellar Backgrounds ***
 **/
 
-.parallax-bg-1 {
+/*.parallax-bg-1 {
     background: url(../images/bg-cityscape.jpg) repeat center center fixed;
 
     background-size: cover;
-}
+}*/
 
 .parallax-bg-2 {
     background: url(../images/pencils.jpg) repeat center center fixed;
@@ -3635,9 +3662,11 @@ blockquote {
 
 .typewrite_wrap {
     left: 3%;
-    top: 5%;
+    top: 50%;
     position: absolute;
-    z-index: 1000;
+    z-index: 1000;        
+    margin-top:-19px;
+
 }
 /*-----typewriter--------*/
 
@@ -3659,7 +3688,8 @@ blockquote {
         }
 
     .feature-list .feature i {
-        font-size: 28px;
+        font-size: 32px;
+            text-indent: 12px;
         width: 58px;
         height: 58px;
         -webkit-border-radius: 58px;
@@ -3795,15 +3825,26 @@ blockquote {
 }
 
 @media (max-width: 989px) {
+    .feature-list .feature i {
+    font-size: 28px;
+    /* width: 58px; */
+    /* height: 58px; */
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    border-radius: 58px;
+    text-indent: 15px;
+    padding-top: 15px;
+}
     .typewrite_wrap {
     left: 3%;
-    top: 3%;
+    top: 50%;
     position: absolute;
     z-index: 1000;
         font-family:'Roboto Light';
+         margin-top:0;
 }
 .typewrite {
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
     #dinamLogo {
         font-size: 40px !important;
@@ -4028,15 +4069,33 @@ blockquote {
 }
 
 @media (max-width: 767px) {
+    .content-section.fixed ul.testimonials li h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 60px;
+    cursor: default;
+}
+
+        .content-section h1 i {
+    font-size: 47px;
+    position: relative;
+    color: #404040;
+    /*top: 2px;*/
+    left: -10px;
+}
+     
         .typewrite_wrap {
     left: 3%;
-    top: 2.5%;
+    top: 50%;
     position: absolute;
     z-index: 1000;
-        font-family:'Roboto Light';
+    font-family:'Roboto Light';
+     margin-top:0;
 }
         .typewrite {
-    font-size: 1.4em;
+     font-size: 0.9em;
 }
 
     .content-section.min-flex {
@@ -4089,7 +4148,7 @@ blockquote {
 
     .navbar a.MyLogo {
         position: relative;
-        left: 50%;
+        left: 19%;
         margin-left: -100px;
         float: none;
     }
@@ -4127,7 +4186,7 @@ blockquote {
     .navigation .search-field {
         width: 100%;
         height: 85px;
-        background: rgba(#7764b0, .95);
+        background:#7764b0;
         position: relative;
         padding: 0;
         margin: 0;
@@ -4212,12 +4271,41 @@ blockquote {
 }
 
 @media (max-width: 480px) {
+    
+.content-section.fixed ul.testimonials li h3 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 100;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 44px;
+    cursor: default;
+    margin-top: 46px;
+}
+    .content-section h1 i{
+    font-size: 47px;
+    position: relative;
+    color: #404040;
+    top: 8px;
+    left: -10px;
+}
+    section.content-section h1, footer .content-section h1 {
+    font-size: 30px;
+}
+        div.mobile_cover{
+        display:block;
+    }
+
+    .video-js{
+        display:none;
+    }
+
     .typewrite {
-    font-size: 0.9em;
+    font-size: 0.7em;
         font-family:'Roboto Light';
 }
     .typewrite_wrap {
-    top: 1%;
+    top: 50%;
+    margin-top:0;
 }
 
     #dinamLogo {
@@ -4238,7 +4326,8 @@ blockquote {
         font-family:'Roboto Light';
 }
     .typewrite_wrap {
-    top: 0.7%;
+    top: 50%;
+    margin-top:0;
 }
 
 }

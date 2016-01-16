@@ -12,7 +12,7 @@
            
             {
                 'title': 'Single Zoo',
-                'description': 'SingleZoo company spesialty is pet grooming and veterinarian services. Also it provides goods for pets and accommodation services for animals. SingleZoo website is developed for small business with all required features. Mobile friendly and elegant website is the best choice to bring your company to the right customers via Internet.',
+                'description': 'SingleZoo company spesialty is pet grooming and veterinarian services. SingleZoo website is developed for small business with all required features. Mobile friendly and elegant website is the best choice to bring your company to the right customers via Internet.',
                 'thumbnail': ['images/Portfolio/small/SingleZoo_250x250.jpg', 'images/Portfolio/small/SingleZoo_250x250_2.jpg', 'images/Portfolio/small/SingleZoo_250x250_3.jpg'],
                 'large': ['images/Portfolio/large/SingleZoo_500x500.jpg', 'images/Portfolio/large/SingleZoo_500x500_2.jpg', 'images/Portfolio/large/SingleZoo_500x500_3.jpg'],
                 'button_list':
@@ -57,7 +57,7 @@
             },
             {
                 'title': 'FMXA',
-                'description': 'Website for marketing agency. We have created redesign for website and branding guidelines from scratch to improve user experience, enhance usability for visual elements. I have also enlarged amount of content according to documents provided by client. Now only holding page is online, other pages in development progress.',
+                'description': 'Website for marketing agency. We have created redesign for website and branding guidelines from scratch to improve user experience, enhance usability for visual elements. I have also enlarged amount of content according to documents provided by client.',
                 'thumbnail': ['images/Portfolio/small/FMXA_250x250_1.jpg', 'images/Portfolio/small/FMXA_250x250_2.jpg', 'images/Portfolio/small/FMXA_250x250_3.jpg'],
                 'large': ['images/Portfolio/large/FMXA_500x500_1.jpg', 'images/Portfolio/large/FMXA_500x500_2.jpg', 'images/Portfolio/large/FMXA_500x500_3.jpg'],
                 'button_list':
