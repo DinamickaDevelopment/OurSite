@@ -265,12 +265,14 @@ div.mobile_cover {
             line-height: 1;
             font-size: 21px;
         }
-
-
-
-
+        
     .navigation .navbar-form {
         position: relative;
+    }
+
+    .navbar-form.navbar-left
+     {
+      display:none;
     }
 
         .navigation .navbar-form i.fa {
@@ -439,7 +441,7 @@ div.mobile_cover {
     top: 65px;
 }
 
-.navigation ul.navbar-nav li.dropdown.full section span.wrapper {
+.navigation ul.navbar-nav li.dropdown.full section .wrapper {
     top: 0;
     right: 12%;
     border-top: 3px solid #7764b0;
@@ -452,16 +454,16 @@ div.mobile_cover {
     background: #404040;
 }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper .clear-wrapper {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper .clear-wrapper {
         float: left;
         height: 100%;
     }
 
-        .navigation ul.navbar-nav li.dropdown.full section span.wrapper .clear-wrapper article ul li a {
+        .navigation ul.navbar-nav li.dropdown.full section .wrapper .clear-wrapper article ul li a {
             cursor: default;
         }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper .color-wrapper {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper .color-wrapper {
         background: #7764b0;
         width: 368px; /* Golden Ratio, 3% padding-left */
         float: right;
@@ -472,7 +474,7 @@ div.mobile_cover {
         position: relative;
     }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper article {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper article {
         display: inline-block;
         width: 245px;
         height: 180px;
@@ -483,12 +485,12 @@ div.mobile_cover {
         vertical-align: top;
     }
 
-        .navigation ul.navbar-nav li.dropdown.full section span.wrapper article strong {
+        .navigation ul.navbar-nav li.dropdown.full section .wrapper article strong {
             position: relative;
             top: 0;
         }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper span.divider {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper span.divider {
         position: absolute;
         height: 180px;
         top: 40px;
@@ -497,7 +499,7 @@ div.mobile_cover {
         display: inline-block;
     }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper ul {
         list-style: none;
         padding: 0 0 0 30px;
         margin: 0;
@@ -507,7 +509,7 @@ div.mobile_cover {
         top: 0;
     }
 
-        .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li {
+        .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li {
             padding: 0;
             margin: 0 0 2px 0;
             height: auto;
@@ -516,7 +518,7 @@ div.mobile_cover {
             float: none;
         }
 
-            .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a {
+            .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a {
                 color: rgba(255,255,255,.55);
                 font-family: "Roboto", Arial, sans-serif;
                 font-weight: 100;
@@ -529,7 +531,7 @@ div.mobile_cover {
                 position: relative;
             }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper strong {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper strong {
         color: #fff;
         font-size: 16px;
         line-height: 36px;
@@ -541,7 +543,7 @@ div.mobile_cover {
         float: none;
     }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper .color-wrapper p {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper .color-wrapper p {
         margin: 10px 0 0 30px;
         padding: 0;
         line-height: 21px;
@@ -549,7 +551,7 @@ div.mobile_cover {
         text-align: center;
     }
 
-        .navigation ul.navbar-nav li.dropdown.full section span.wrapper .color-wrapper p a {
+        .navigation ul.navbar-nav li.dropdown.full section .wrapper .color-wrapper p a {
             padding: 0;
             margin: 0;
             position: relative;
@@ -562,18 +564,18 @@ div.mobile_cover {
             font-family: "Roboto", Arial, sans-serif;
         }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a i {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a i {
         padding: 0 10px 0 0;
         margin: 0;
     }
 
-        .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a i svg {
+        .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a i svg {
             width: 13px;
             height: 13px;
         }
 
-            .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a i svg path,
-            .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a i svg polygon {
+            .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a i svg path,
+            .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a i svg polygon {
                 fill: rgba(255,255,255,.55);
                 -moz-transition: all 700ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
                 -o-transition: all 700ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
@@ -633,15 +635,15 @@ div.mobile_cover {
     }
 
 /** Adjusted icons **/
-.navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a i.fa-moon-o {
+.navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a i.fa-moon-o {
     padding-right: 11px;
 }
 
-.navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a:hover {
+.navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a:hover {
     color: #7764b0;
 }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a:hover i svg path, .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a:hover i svg polygon {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a:hover i svg path, .navigation ul.navbar-nav li.dropdown.full section .wrapper ul li a:hover i svg polygon {
         fill: #7764b0;
     }
 
@@ -815,6 +817,8 @@ h6 {
     position: relative;
     text-align: center;
     text-shadow: 0;
+
+    margin:60px 0 0 0;
 }
 
 .unselectable {
@@ -887,7 +891,7 @@ h6 {
 }
 
 .content-section h1 + p {
-    margin-top: 29px;
+    margin: 20px 0 60px 0;
 }
 
 .content-section p {
@@ -1737,7 +1741,7 @@ a#desc span.desc span.subtitle {
 .team .wrapper {
     text-align: center;
     margin: 0 auto 0 auto;
-    padding: 45px 0 0 0;
+    /*padding: 45px 0 0 0;*/
     position: relative;
     display: block;
     width: 990px;
@@ -1754,20 +1758,26 @@ a#desc span.desc span.subtitle {
 }
 
 .team .ms-container {
-    margin: 0 auto;
-    position: relative;
     width: 100%;
+    margin: -150px auto 0;
+    position: relative;
+    top: 50%;
+    
 }
 
 .team .ms-slide {
     list-style: none;
-    display: inline-block;
     margin: 0 25px 0 0;
     width: 290px;
     display: block;
     height: 100%;
     position: absolute;
+    -moz-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    -o-transform: translateZ(0px);
+    -webkit-transform: translateZ(0px);
     transform: translateZ(0px);
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     clear: both;
     cursor: pointer;
@@ -2320,7 +2330,6 @@ footer .content-section {
         font-family: "Roboto", Arial, sans-serif;
         color: #707070;
         font-weight: 100;
-        line-height: 0;
         padding: 0;
         margin: 74px 0 36px 0;
         line-height: 60px;
@@ -2446,8 +2455,8 @@ footer.classic p {
 }
 /*twitter*/
 div.twitter-feed-wrapper div#twitter-feed iframe#twitter-widget-0 {
-    height: 167px !important;
-    min-height: 130px !important;
+    /*height: 167px !important;
+    min-height: 130px !important;*/
 }
 
 
@@ -2951,6 +2960,8 @@ ul.info-list {
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
     ul.info-list li {
@@ -3422,8 +3433,10 @@ ul.info-list {
 /*//////////////////Contact information/////////////////////////////*/
 
 #contact_information {
-    padding-top: 50px;
+    /*padding-top: 50px;
+    padding-bottom: 50px;*/
 }
+
 
 
 /**
@@ -3444,7 +3457,7 @@ ul.info-list {
 
 .parallax-bg-3 {
     background: url(../images/office.png) repeat center center fixed;
-
+    background-repeat:no-repeat;
     background-size: cover;
 }
 
@@ -3683,7 +3696,7 @@ blockquote {
         margin-left: -352px;
     }
 
-        .navigation ul.navbar-nav li.dropdown.full section span.wrapper article {
+        .navigation ul.navbar-nav li.dropdown.full section .wrapper article {
             width: 195px;
         }
 
@@ -3858,7 +3871,7 @@ blockquote {
         height: 1400px !important;
     }
 
-    .navigation ul.navbar-nav li.dropdown.full section span.wrapper article {
+    .navigation ul.navbar-nav li.dropdown.full section .wrapper article {
         width: 245px;
     }
 
@@ -3945,8 +3958,8 @@ blockquote {
         }
 
     .team .wrapper {
-        padding: 45px 0 0 0;
-        width: 300px;
+        /*padding: 45px 0 0 0;*/
+        width: 358px;
     }
 
     .slider-laptop .laptop {
@@ -3988,9 +4001,9 @@ blockquote {
             max-width: 230px;
         }
 
-    .team .wrapper {
+    /*.team .wrapper {
         width: 358px;
-    }
+    }*/
 
     .content-section.video ul.testimonials {
         position: relative;
@@ -4070,33 +4083,34 @@ blockquote {
 
 @media (max-width: 767px) {
     .content-section.fixed ul.testimonials li h3 {
-    text-align: center;
-    font-size: 35px;
-    font-weight: 100;
-    font-family: "Roboto", Arial, sans-serif;
-    line-height: 60px;
-    cursor: default;
-}
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        font-family: "Roboto", Arial, sans-serif;
+        line-height: 60px;
+        cursor: default;
+    }
 
-        .content-section h1 i {
-    font-size: 47px;
-    position: relative;
-    color: #404040;
-    /*top: 2px;*/
-    left: -10px;
-}
-     
-        .typewrite_wrap {
-    left: 3%;
-    top: 50%;
-    position: absolute;
-    z-index: 1000;
-    font-family:'Roboto Light';
-     margin-top:0;
-}
-        .typewrite {
-     font-size: 0.9em;
-}
+    .content-section h1 i {
+        font-size: 47px;
+        position: relative;
+        color: #404040;
+        /*top: 2px;*/
+        left: -10px;
+    }
+
+    .typewrite_wrap {
+        left: 3%;
+        top: 50%;
+        position: absolute;
+        z-index: 1000;
+        font-family: 'Roboto Light';
+        margin-top: 0;
+    }
+
+    .typewrite {
+        font-size: 0.9em;
+    }
 
     .content-section.min-flex {
         height: auto;
@@ -4178,6 +4192,9 @@ blockquote {
         top: 0;
         padding: 0;
     }
+
+    
+ 
 
         .navigation .navbar-form i.fa {
             font-size: 14px;

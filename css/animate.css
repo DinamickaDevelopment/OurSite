@@ -2764,14 +2764,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:50%;
 }
 
-@media (max-width:767px) 
-{
-    #contact-us 
-    {
-        max-width: 100%;
-        max-height: 100%;
-    }
-}
 
 .contact-map {
     background: url("../images/Map/IndigoMap.png") no-repeat scroll left top rgba(0,0,0,0);
@@ -2781,14 +2773,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     width: 950px;
 }
 
-@media (max-width:767px) 
-{
-    .contact-map
-    {
-        max-width: 100%;
-        max-height: 100%;
-    }
-}
+
 
 .contact-map-span {
    
@@ -2798,7 +2783,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     position: absolute;
     right: 0;
     /*top: 72px;*/
-    z-index: -6;
+    /*z-index: -6;*/
 }
 
 .office-pulse {
@@ -3055,15 +3040,52 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
-@media only screen and (max-width:768px) {
-    .hide-mobile {
+/*@media only screen and (max-width:768px) {
+   
+}*/
+
+@media (max-width:767px) 
+{
+    
+     .hide-mobile {
         display: none;
     }
 
     .show-mobile {
         display: block;
     }
-}
 
+     #contact-us 
+    {
+        height: 230px;
+        width: 290px;
+        width: auto;
+        height:230px;
+        margin-left:0;
+        left:0;
+    }
+
+    .contact-map
+    {
+        height: 230px;
+        width: 290px;
+        background: url("../images/Map/IndigoMap.png") no-repeat scroll center center rgba(0,0,0,0);
+        background-size: 305px 205px;
+    }
+
+    .locator {
+        top: 2px;
+        left: -5px;
+    }
+
+    .locator2 {
+       left: 106px;
+       top: 10px;
+    }
+    .locator3 {
+           left: 110px;
+           top: 37px;
+    }
+}
 
  
