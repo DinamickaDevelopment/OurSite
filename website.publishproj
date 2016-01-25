@@ -18,7 +18,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.30319</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{c750b5a3-78a7-49f4-980f-b8d590b8c3e7}</ProjectGuid>
+    <ProjectGuid>{1f5eee73-2fff-4b37-8bd3-7352dd836200}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
     <SourceWebVirtualPath>/Dinamicka Site</SourceWebVirtualPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
