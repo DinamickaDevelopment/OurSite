@@ -51,6 +51,9 @@ a {
         color: #4487b2;
     }
 
+body {
+overflow:hidden;
+}
 
 /*Slider*/
 #video {
@@ -151,7 +154,7 @@ div.mobile_cover {
     border-top: 4px solid #7764b0;
     border-bottom: 1px solid #e0e0e0;
     position: relative;
-    z-index: 99999999999;
+    z-index: 99999;
     color: black !important;
 }
 
@@ -694,20 +697,21 @@ section.content-section .row.no-heading {
 
 /** MINI NAVIGATION **/
 .navigation ul.mini {
-    margin: 20px 0 0 0;
+    margin: 0 0 0 0;
     list-style: none;
     padding: 0;
     position: absolute;
+    left:0;
     display: none;
     overflow: scroll;
-    height: 209px;
+    height: 206px;
     width: 100%;
     outline: none;
     background: #f9f8f8;
 }
 
 .navigation.fixed ul.mini {
-    height: 209px;
+    height: 206px;
 }
 
 .navigation ul.mini li {
@@ -4162,8 +4166,8 @@ blockquote {
 
     .navbar a.MyLogo {
         position: relative;
-        left: 19%;
-        margin-left: -100px;
+        left: 0;
+        margin-left: 0;
         float: none;
     }
 

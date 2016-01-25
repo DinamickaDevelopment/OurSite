@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Dinamicka Development</title>
-    <link href="../images/faviconD.ico" type="image/x-icon"  rel="icon"/>
+    <link href="../images/faviconD.ico" type="image/x-icon" rel="icon" />
 
 
     <!-- Bootstrap core CSS -->
@@ -33,11 +33,23 @@
     <link href="css/elastic_grid.min.css" rel="stylesheet" />
 
     <!--Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css' /> 
-   <!--video slider------------>
-    <link href="css/Slider.css" rel="stylesheet" />   
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css' />
+    <!--video slider------------>
+    <link href="css/Slider.css" rel="stylesheet" />
+    
+    <!--Google Analytics--> 
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-
+        ga('create', 'UA-72814992-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!----------------------------------------------------------------------------------------------->
 </head>
 
 <body>
@@ -50,20 +62,18 @@
         </h1>
         <div class="mobile_cover"></div>
         <!--typewritting-->
-        <video id="video" class="video-js vjs-default-skin" muted=muted autoplay=autoplay loop=loop preload="auto" poster="images/Mock-up.jpg">
-            <source src="videos/slider/Mock-up.mp4" type='video/mp4' />
-            <source src="videos/slider/Mock-up.webm" type='video/webm' />
-            <source src="videos/slider/Mock-up.ogv" type='video/ogg' />
+        <video id="video" class="video-js vjs-default-skin" muted=muted autoplay=autoplay loop=loop preload="auto" poster="images/mock-up.jpg">
+            <source src="videos/slider/mock-up.mp4" type='video/mp4' />
+            <source src="videos/slider/mock-up.webm" type='video/webm' />
+            <source src="videos/slider/mock-up.ogv" type='video/ogg' />
         </video>
     </div><!-- .video-wrapper -->
     <!-- end of slider -->
-    
+
     <span id="nav-begins"></span><!-- place before navigation bar-->
     <div class="container-wrapper navigation">
         <nav class="navbar navbar-default" role="navigation">
-
             <div class="container">
-
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
                         <i class="fa fa-bars"></i>
@@ -78,7 +88,6 @@
                     </a>
                     <ul class="mini"></ul><!-- mobile navigation -->
                 </div><!-- .navbar-header -->
-
                 <div class="collapse navbar-collapse">
                     <div class="right">
                         <ul class="nav navbar-nav">
@@ -326,9 +335,6 @@
             <p>We offer many various services! We will list a few right here, right now just to show you how incredibly awesome we are at our company!</p>
         </div>
     </section>
-
-
-
     <div class="container">
         <div class="row">
             <div id="elastic_grid_demo"></div>
@@ -391,6 +397,11 @@
                             <div class="ms-info">
                             </div><!-- .ms-info -->
                         </div>
+                        <div class="ms-slide" data-member-id="8">
+                            <img src="images/Our team/Egor.jpg" data-src="images/Our team/Egor.jpg" alt="Yehor Noskov" />
+                            <div class="ms-info">
+                            </div><!-- .ms-info -->
+                        </div>
                     </div>
 
                     <div class="ms-info" id="staff-info"></div>
@@ -410,7 +421,7 @@
                         <strong>Oleksandr Petryk</strong>
                         <span>Team leader</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/oleksandr.petryk" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!--<li><a href="https://www.facebook.com/oleksandr.petryk" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
                             <li><a href="https://ua.linkedin.com/pub/alexander-petrik/63/5b4/487/en" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
@@ -449,15 +460,14 @@
                 </div><!-- .member-box -->
                 <!-- Person 2 Box -->
                 <div class="member-box" id="2">
-
                     <div class="color-wrapper">
                         <a href="#" id="close"><i class="fa fa-times"></i></a>
                         <img src="images/Our team/Lesha.png" alt="Alexey Klimchuk" />
                         <strong>Alexey Klimchuk</strong>
                         <span>Java developer</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/profile.php?id=100009443932120&fref=pb&hc_location=friends_tab" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <!--<li><a href="#linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--<li><a href="https://www.facebook.com/profile.php?id=100009443932120&fref=pb&hc_location=friends_tab" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
+                            <li><a href="#linkedin"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
 
@@ -504,7 +514,7 @@
                         <strong>Bogdan Druzhynin</strong>
                         <span>Web developer</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/people/%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD-%D0%94%D1%80%D1%83%D0%B6%D0%B8%D0%BD%D0%B8%D0%BD/100008838727214?_rdr=p" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!--<li><a href="https://www.facebook.com/people/%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD-%D0%94%D1%80%D1%83%D0%B6%D0%B8%D0%BD%D0%B8%D0%BD/100008838727214?_rdr=p" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
                             <li><a href="https://ua.linkedin.com/pub/богдан-дружинин/b5/8a1/b79/en" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
@@ -538,7 +548,6 @@
                                 <div class="progress"><div class="progress-bar" role="progressbar" data-value="84"></div></div>
                             </li>
                         </ul>
-
                     </div><!-- .clear-wrapper -->
 
                     <div class="shadow-lg"></div><!-- Remove this to remove the bottom shadow -->
@@ -552,7 +561,7 @@
                         <strong>Mariana Maksimiv</strong>
                         <span>Designer</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D0%BD%D0%B0-%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F/100001473091661?_rdr=p" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!--<li><a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D0%BD%D0%B0-%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F/100001473091661?_rdr=p" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
                             <li><a href="https://ua.linkedin.com/pub/mariana-maksimiv/b9/a66/a36/en" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
@@ -600,7 +609,7 @@
                         <strong>Dariy Petryk</strong>
                         <span>Designer</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/people/Dariy-Petryk/100009236219613?_rdr=p" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!--<li><a href="https://www.facebook.com/people/Dariy-Petryk/100009236219613?_rdr=p" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
                             <li><a href="https://ua.linkedin.com/pub/dariy-petrik/b5/8a8/687/en" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
@@ -647,7 +656,7 @@
                         <strong>Sergey Privala</strong>
                         <span>Frontend developer</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/serega.privala" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!--<li><a href="https://www.facebook.com/serega.privala" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
                             <li><a href="https://www.linkedin.com/in/sergey-pryvala-1aa703112" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
@@ -691,7 +700,7 @@
                         <strong>Olha Andriichuk</strong>
                         <span>Marketer</span>
                         <ul class="social-media">
-                            <li><a href="https://www.facebook.com/ollyandrijchuk" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!--<li><a href="https://www.facebook.com/ollyandrijchuk" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
                             <li><a href="https://ua.linkedin.com/pub/olha-andriichuk/b4/495/6b0" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div><!-- .color-wrapper -->
@@ -726,10 +735,52 @@
                     </div><!-- .clear-wrapper -->
                     <div class="shadow-lg"></div><!-- Remove this to remove the bottom shadow -->
                 </div><!-- .member-box -->
+                <!-- Person 8 Box -->
+                <div class="member-box" id="8">
+                    <div class="color-wrapper">
+                        <a href="#" id="close"><i class="fa fa-times"></i></a>
+                        <img src="images/Our team/Egor.jpg" alt="Yehor Noskov" />
+                        <strong>Yehor Noskov</strong>
+                        <span>Java developer</span>
+                        <ul class="social-media">
+                            <!--<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
+                            <li><a href="https://ua.linkedin.com/in/yehornoskov" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div><!-- .color-wrapper -->
+                    <div class="clear-wrapper">
+                        <h3>About Me</h3>
+                        <p>
+                            Reliable Java developer with ambitions. Like to use his skills to create Android apps. Has plans of exploring Objective-C and Swift for programming for Mac OS and iOS.
+                        </p>
+                        <h3>Skills</h3>
+                        <ul class="bars">
+                            <li>
+                                <strong>JavaSE/JavaEE</strong>
+                                <span>90%</span>
+                                <div class="progress"><div class="progress-bar" role="progressbar" data-value="90"></div></div>
+                            </li>
+                            <li>
+                                <strong>Android</strong>
+                                <span>88%</span>
+                                <div class="progress"><div class="progress-bar" role="progressbar" data-value="88"></div></div>
+                            </li>
+                            <li>
+                                <strong>MySQL</strong>
+                                <span>93%</span>
+                                <div class="progress"><div class="progress-bar" role="progressbar" data-value="93"></div></div>
+                            </li>
+                            <li>
+                                <strong>HTML/CSS</strong>
+                                <span>95%</span>
+                                <div class="progress"><div class="progress-bar" role="progressbar" data-value="95"></div></div>
+                            </li>
+                        </ul>
+                    </div><!-- .clear-wrapper -->
+                    <div class="shadow-lg"></div><!-- Remove this to remove the bottom shadow -->
+                </div><!-- .member-box -->
             </div><!-- .member-box-wrapper -->
         </div><!-- .container -->
     </section><!-- .team -->
-
     <section class="content-section anim fadeInDown" id="contactUs">
         <div class="container">
             <h1 unselectable="on" class="unselectable"><i class="fa fa-pencil-square-o"></i>CONTACT <span>US</span></h1>
@@ -868,7 +919,7 @@
     </section><!-- .content-section .form -->
 
     <footer class="classic">
-        <section class="content-section parallax-bg-3" >
+        <section class="content-section parallax-bg-3">
 
             <div class="container">
                 <div class="row">
@@ -959,7 +1010,7 @@
                     </div><!-- .row -->
                 </div><!-- .container -->
             </div><!-- .foot-wrapper -->
-            </div>
+
         </section>
     </footer>
 
@@ -976,54 +1027,54 @@
 
     <!-- MasterSlider init-->
     <script type="text/javascript" language="javascript">
-         jQuery(document).ready(function($) {
+        jQuery(document).ready(function ($) {
 
-             /************************
-             ****** MasterSlider *****
-             *************************/
-             // Calibrate slider's height
-             var sliderHeight = 670; // Smallest hieght allowed (default height)
-             if ( $('#masterslider').data('height') == 'fullscreen' ) {
-                 var winHeight = $(window).height();
-                 sliderHeight = winHeight > sliderHeight ? winHeight : sliderHeight;
-             }
+            /************************
+            ****** MasterSlider *****
+            *************************/
+            // Calibrate slider's height
+            var sliderHeight = 670; // Smallest hieght allowed (default height)
+            if ($('#masterslider').data('height') == 'fullscreen') {
+                var winHeight = $(window).height();
+                sliderHeight = winHeight > sliderHeight ? winHeight : sliderHeight;
+            }
 
-             // Initialize the main slider
-             var slider = new MasterSlider();
-             slider.setup('masterslider', {
-                 space:0,
-                 fullwidth:true,
-                 autoplay:true,
-                 preload:'all',
-                 overPause:false,
-                 width:1280,
-                 height:sliderHeight
-             });
-             // adds Arrows navigation control to the slider.
-             slider.control('bullets',{autohide:false  , dir:"h"});
-        var teamslider = new MasterSlider();
+            // Initialize the main slider
+            var slider = new MasterSlider();
+            slider.setup('masterslider', {
+                space: 0,
+                fullwidth: true,
+                autoplay: true,
+                preload: 'all',
+                overPause: false,
+                width: 1280,
+                height: sliderHeight
+            });
+            // adds Arrows navigation control to the slider.
+            slider.control('bullets', { autohide: false, dir: "h" });
+            var teamslider = new MasterSlider();
 
-        teamslider.setup('teamslider', {
-        loop: true,
-        width: 300,
-        height: 290,
-        speed: 20,
-        view: 'stffade',
-        grabCursor: false,
-        preload: 0,
-        space: 29
-        });
-        teamslider.control('slideinfo', { insertTo: '#staff-info' });
+            teamslider.setup('teamslider', {
+                loop: true,
+                width: 300,
+                height: 290,
+                speed: 20,
+                view: 'stffade',
+                grabCursor: false,
+                preload: 0,
+                space: 29
+            });
+            teamslider.control('slideinfo', { insertTo: '#staff-info' });
 
-        $(".team .ms-nav-next").click(function () {
-        teamslider.api.next();
-        });
+            $(".team .ms-nav-next").click(function () {
+                teamslider.api.next();
+            });
 
-        $(".team .ms-nav-prev").click(function () {
-        teamslider.api.previous();
-        });
-         })
-     </script>
+            $(".team .ms-nav-prev").click(function () {
+                teamslider.api.previous();
+            });
+        })
+    </script>
     <!-- Easing core JavaScript -->
     <script language="javascript" src="js/jquery.easing.1.3.js"></script>
     <!-- Bootstrap core JavaScript -->
