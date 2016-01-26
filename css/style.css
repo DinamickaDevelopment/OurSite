@@ -237,6 +237,7 @@ div.mobile_cover {
     .navigation a.MyLogo {
         display: table;
         padding: 19px 0;
+        margin-left:10px;
         width: 199px;
         color: black;
     }
@@ -1505,8 +1506,12 @@ ul.pagination {
 
 
         .feature-list .feature .content {
+            
             float: left;
-            max-width: 230px;
+            width: -webkit-calc(100% - 100px);
+            width: -moz-calc(100% - 100px);
+            width: calc(100% - 100px);
+
             margin-left: 20px;
         }
 
@@ -3704,9 +3709,9 @@ blockquote {
             width: 195px;
         }
 
-    .feature-list .feature i {
+    /*.feature-list .feature i {
         font-size: 32px;
-            text-indent: 12px;
+        text-indent: 12px;
         width: 58px;
         height: 58px;
         -webkit-border-radius: 58px;
@@ -3714,16 +3719,16 @@ blockquote {
         border-radius: 58px;
         text-indent: 15px;
         padding-top: 15px;
-    }
+    }*/
 
-    .feature-list .feature {
+    /*.feature-list .feature {
         display: inline-block;
         float: left;
-    }
+    }*/
 
-        .feature-list .feature .content {
+        /*.feature-list .feature .content {
             max-width: 205px;
-        }
+        }*/
 
     .team .wrapper {
         width: 800px;
@@ -3843,15 +3848,14 @@ blockquote {
 
 @media (max-width: 989px) {
     .feature-list .feature i {
-    font-size: 28px;
-    /* width: 58px; */
-    /* height: 58px; */
+    /*font-size: 28px;
     -webkit-border-radius: 58px;
     -moz-border-radius: 58px;
     border-radius: 58px;
     text-indent: 15px;
-    padding-top: 15px;
+    padding-top: 15px;*/
 }
+
     .typewrite_wrap {
     left: 3%;
     top: 50%;
@@ -3985,7 +3989,7 @@ blockquote {
         position: relative;
     }
 
-    .feature-list .feature i {
+    /*.feature-list .feature i {
         font-size: 18px;
         width: 48px;
         height: 48px;
@@ -3994,12 +3998,12 @@ blockquote {
         border-radius: 48px;
         text-indent: 14px;
         padding-top: 14px;
-    }
+    }*/
 
-    .feature-list .feature {
+    /*.feature-list .feature {
         display: inline-block;
         float: left;
-    }
+    }*/
 
         .feature-list .feature .content {
             max-width: 230px;
@@ -4240,7 +4244,7 @@ blockquote {
             background: #fff;
             border: 1px solid #ececec;
             color: #7764b0;
-            float: left;
+            /*float: left;*/
             -webkit-border-radius: 78px;
             -moz-border-radius: 78px;
             border-radius: 78px;
@@ -4257,12 +4261,19 @@ blockquote {
             text-align: center;
             width: 100%;
             max-width: 100%;
+            margin:0;
+            padding:0 15px;
         }
 
-            .feature-list .feature .content p,
-            .feature-list .feature .content h4 {
-                max-width: 90%;
+            .feature-list .feature .content p {
+            text-align:justify;
             }
+
+
+            /*.feature-list .feature .content p,
+            .feature-list .feature .content h4 {
+                max-width: 100%;
+            }*/
 
     .team .wrapper {
         width: 290px;
