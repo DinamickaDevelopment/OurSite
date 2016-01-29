@@ -51,9 +51,9 @@ a {
         color: #4487b2;
     }
 
-body {
-/*overflow:hidden;*/
-}
+/*body {
+overflow:auto;
+}*/
 
 /*Slider*/
 #video {

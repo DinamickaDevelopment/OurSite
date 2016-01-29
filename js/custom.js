@@ -134,18 +134,18 @@ jQuery(document).ready(function($) {
 	*  *****
 	*************************/
     // Remove NiceScroll dependacny
-    if ( $.isFunction($.fn.niceScroll) ) {
-       	$("html").niceScroll({ // The document page (body)
-            cursorcolor:"#6ebff3", 
-            cursorborder:"0",
-			zindex:999999999
-        });
-		$(".navbar ul.mini").niceScroll({
-			cursoropacitymax:0,
-			cursoropacitymin:0,
-            cursorborder	:0
-		});
-    }
+    //if ( $.isFunction($.fn.niceScroll) ) {
+    //   	$("html").niceScroll({ // The document page (body)
+    //        cursorcolor:"#6ebff3", 
+    //        cursorborder:"0",
+	//		zindex:999999999
+    //    });
+	//	$(".navbar ul.mini").niceScroll({
+	//		cursoropacitymax:0,
+	//		cursoropacitymin:0,
+    //        cursorborder	:0
+	//	});
+    //}
 	
 	/************************
 	** Portfolio functions **
